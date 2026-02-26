@@ -15,7 +15,7 @@ draw = function(){
     
    drawScene();
 
-
+  
    if(keyPressed){
      if(key == 'f'){
        sceneImage = forestImage;   

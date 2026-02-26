@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Poetsen+One&display=swap');
 
 body {
-  background-image: url("https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg");
+  background-image: url("https://static.vecteezy.com/system/resources/previews/041/435/345/non_2x/pink-pastel-background-with-hearts-and-bokeh-fantasy-kawaii-magic-sky-with-gradient-cute-print-dreamy-girly-fantasy-wallpaper-vector.jpg");
   text-align: center;
   margin: auto;
-   font-family: "Poetsen One", serif;
+   font-family: "Ribeye Marrow", serif;
 }
 
 h1{
-  font-size: 30px;
-  color: white;
+  color: rgb(255, 148, 193);
 }
 
 #myCanvas {

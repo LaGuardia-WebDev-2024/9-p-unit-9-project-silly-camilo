@@ -8,17 +8,18 @@ var backStory = loadImage("img/ph1.png");
 
 //Variable Declarations
 var sceneImage = homeScreen;
-var sceneText = "click anywhere to start!";
+
+text("click anywhere to start!", 10, 380);
 
 draw = function(){
+    
    drawScene();
 
+  
    if(mouseClicked){
-       sceneImage = backStory;
-       sceneText = "No fox here.  [Press s to restart]";
-    } 
-
-
+      sceneImage = backStory;   
+      text("", 10, 380);
+     } 
    }
   
 };
@@ -26,14 +27,10 @@ draw = function(){
 var drawScene = function(){
     image(sceneImage, 0, 0, 600, 400);
     
-    fill(176, 194, 255);
+    noStroke();
+    fill(103, 112, 230);
     rect(0, 350, 600, 100);
       
     fill(255,255,255);
     textSize(20);
-   
-    text(sceneText, 10, 375);
 };
-
-
-

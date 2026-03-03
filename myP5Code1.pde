@@ -4,8 +4,8 @@ setup = function() {
 
 //Background Images
 var homeScreen = loadImage("img/home screen.png");
-var backStory = loadImage("img/ph1.png");
-var gameStart = loadImage("img/ph2.png");
+var backStory = loadImage("img/backStory");
+var gameStart = loadImage("img/1/1.png");
 
 //Variable Declarations
 
@@ -25,6 +25,16 @@ draw = function(){
 
       if(mouseClicked){
         image(gameStart, 0, 0, 600, 400);
+
+        if(keyPressed){
+          if(key == 'a'){
+            image(loadImage("img/1/a.png"), 0, 0, 600, 400);  
+          } 
+
+          if(key == 'b'){
+            image(loadImage("img/1/b.png"), 0, 0, 600, 400);
+          } 
+        }
       }
     }
 };

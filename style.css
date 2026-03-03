@@ -11,6 +11,18 @@ h1{
   color: rgb(255, 148, 193);
 }
 
+h2{
+  color: rgb(255, 148, 193);
+}
+
+h3{
+  background-color: white;
+  color: rgb(255, 148, 193);
+  font-size: medium;
+  font-weight: bold;
+  font-style: italic;
+}
+
 #myCanvas {
   background-size: 600px 400px;
   border-radius: 30px;

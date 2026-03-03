@@ -8,10 +8,12 @@ var backStory = loadImage("img/backStory");
 var gameStart = loadImage("img/1/1.png");
 
 //Variable Declarations
+var sceneImage = homeScreen;
 
 draw = function(){
     
-    image(homeScreen, 0, 0, 600, 400);
+  drawScene();
+
     noStroke();
     fill(103, 112, 230);
     rect(0, 350, 600, 100);
@@ -28,13 +30,25 @@ draw = function(){
 
         if(keyPressed){
           if(key == 'a'){
-            image(loadImage("img/1/a.png"), 0, 0, 600, 400);  
+            sceneImage = loadImage("img/1/a.png"); 
+              if(key == 'enter'){
+                sceneImage = loadImage("img/2/2a.png");
+              } 
           } 
 
           if(key == 'b'){
-            image(loadImage("img/1/b.png"), 0, 0, 600, 400);
+            sceneImage = loadImage("img/1/b.png");
+          } 
+
+          if(key == 'c'){
+            sceneImage = loadImage("img/1/b.png");
           } 
         }
       }
     }
+
+  var drawScene = function(){
+    image(sceneImage, 0, 0, 600, 400);
+  }
+
 };

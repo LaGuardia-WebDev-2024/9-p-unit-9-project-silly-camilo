@@ -847,7 +847,15 @@ draw = function(){
 
         }
       
-
+if(mousePressed && count == 5){
+      icecream(random(600), random(400));
+      icecream(random(600), random(400));
+      icecream(random(600), random(400));
+      icecream(random(600), random(400));
+      icecream(random(600), random(400));
+      icecream(random(600), random(400));
+      icecream(random(600), random(400));
+    }
     
     
 
@@ -880,15 +888,5 @@ draw = function(){
     else if(count == 1){
       sceneImage = gameStart;
       count = 2;
-    }
-
-    if(count == 5){
-      icecream(random(600), random(400));
-      icecream(random(600), random(400));
-      icecream(random(600), random(400));
-      icecream(random(600), random(400));
-      icecream(random(600), random(400));
-      icecream(random(600), random(400));
-      icecream(random(600), random(400));
     }
   }

@@ -4,25 +4,21 @@ body {
   background-image: url("https://static.vecteezy.com/system/resources/previews/041/435/345/non_2x/pink-pastel-background-with-hearts-and-bokeh-fantasy-kawaii-magic-sky-with-gradient-cute-print-dreamy-girly-fantasy-wallpaper-vector.jpg");
   text-align: center;
   margin: auto;
-   font-family: "Ribeye Marrow", serif;
    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🎀</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  font-family: "Ribeye Marrow", serif;
 }
 
 h1{
-  color: rgb(255, 148, 193);
-}
-
-h2{
-  color: rgb(255, 148, 193);
+  color: rgb(166, 169, 255);
 }
 
 h3{
   background-color: white;
-  color: rgb(255, 148, 193);
+  color: rgb(119, 122, 255);
   font-size: 25px;
   font-weight: bold;
   font-style: italic;
-  max-width: 80%;
+  max-width: 70%;
   margin:auto;
   padding: 10px;
   border-radius: 20px;

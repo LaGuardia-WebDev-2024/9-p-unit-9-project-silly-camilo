@@ -30,6 +30,10 @@ draw = function(){
     sceneText(280, 340);
   }
 
+  if(count == 5){
+    sceneText(700, 500);
+  }
+
         if(keyPressed){
          //choice 1
           if(key == 'a'){
@@ -127,7 +131,6 @@ draw = function(){
         //choice 3 top 1
           if(key == 'x' && top == 1 && bottom == 1){
             sceneImage = loadImage("img/3/adn.png");
-            hair = 1
             count = 4;
           }
               if(key == 'y' && top == 1 && bottom == 1){
@@ -144,7 +147,6 @@ draw = function(){
 
           if(key == 'x' && top == 1 && bottom == 2){
             sceneImage = loadImage("img/3/aey.png");
-            hair = 1
             count = 4;
           }
               if(key == 'y' && top == 1 && bottom == 2){
@@ -161,7 +163,6 @@ draw = function(){
 
           if(key == 'x' && top == 1 && bottom == 3){
             sceneImage = loadImage("img/3/afy.png");
-            hair = 1
             count = 4;
           }
               if(key == 'y' && top == 1 && bottom == 3){
@@ -178,7 +179,6 @@ draw = function(){
 
           if(key == 'x' && top == 1 && bottom == 4){
             sceneImage = loadImage("img/3/agy.png");
-            hair = 1
             count = 4;
           }
               if(key == 'y' && top == 1 && bottom == 4){
@@ -196,7 +196,6 @@ draw = function(){
         //choice 3 top 2
           if(key == 'x' && top == 2 && bottom == 1){
             sceneImage = loadImage("img/3/bdy.png");
-            hair = 1
             count = 4;
           }
               if(key == 'y' && top == 2 && bottom == 1){
@@ -213,7 +212,6 @@ draw = function(){
 
           if(key == 'x' && top == 2 && bottom == 2){
             sceneImage = loadImage("img/3/bey.png");
-            hair = 1
             count = 4;
           }
               if(key == 'y' && top == 2 && bottom == 2){
@@ -230,7 +228,6 @@ draw = function(){
 
           if(key == 'x' && top == 2 && bottom == 3){
             sceneImage = loadImage("img/3/bfy.png");
-            hair = 1
             count = 4;
           }
               if(key == 'y' && top == 2 && bottom == 3){
@@ -247,7 +244,6 @@ draw = function(){
 
           if(key == 'x' && top == 2 && bottom == 4){
             sceneImage = loadImage("img/3/bgy.png");
-            hair = 1
             count = 4;
           }
               if(key == 'y' && top == 2 && bottom == 4){
@@ -265,7 +261,6 @@ draw = function(){
         //choice 3 top 3
           if(key == 'x' && top == 3 && bottom == 1){
             sceneImage = loadImage("img/3/cdy.png");
-            hair = 1
             count = 4;
           }
               if(key == 'y' && top == 3 && bottom == 1){
@@ -282,7 +277,6 @@ draw = function(){
 
           if(key == 'x' && top == 3 && bottom == 2){
             sceneImage = loadImage("img/3/cey.png");
-            hair = 1
             count = 4;
           }
               if(key == 'y' && top == 3 && bottom == 2){
@@ -299,7 +293,6 @@ draw = function(){
 
           if(key == 'x' && top == 3 && bottom == 3){
             sceneImage = loadImage("img/3/cfy.png");
-            hair = 1
             count = 4;
           }
               if(key == 'y' && top == 3 && bottom == 3){
@@ -316,7 +309,6 @@ draw = function(){
 
           if(key == 'x' && top == 3 && bottom == 4){
             sceneImage = loadImage("img/3/cgy.png");
-            hair = 1
             count = 4;
           }
               if(key == 'y' && top == 3 && bottom == 4){
@@ -332,7 +324,51 @@ draw = function(){
               }
 
       //now it gets real.
-      //choice 4 - 
+      //choice 4 - ad.
+        if(key == 'x' && top == 1 && bottom == 1 && hair == 1){
+          sceneImage = loadImage("img/4/4adn.png");
+          count = 5;
+        }
+
+            if(key == 'h' && top == 1 && bottom == 1 && hair == 1){
+              sceneImage = loadImage("img/4/adnh.png");
+            }
+
+            if(key == 'i' && top == 1 && bottom == 1 && hair == 1){
+              sceneImage = loadImage("img/4/adni.png");
+            }
+
+            if(key == 'j' && top == 1 && bottom == 1 && hair == 1){
+              sceneImage = loadImage("img/4/adnj.png");
+            }
+
+            if(key == 'k' && top == 1 && bottom == 1 && hair == 1){
+              sceneImage = loadImage("img/4/adnk.png");
+            }
+
+
+        if(key == 'x' && top == 1 && bottom == 1 && hair == 2){
+            sceneImage = loadImage("img/4/4ady.png");
+            count = 5;
+          }
+
+              if(key == 'h' && top == 1 && bottom == 1 && hair == 2){
+                sceneImage = loadImage("img/4/adyh.png");
+              }
+
+              if(key == 'i' && top == 1 && bottom == 1 && hair == 2){
+                sceneImage = loadImage("img/4/adyi.png");
+              }
+
+              if(key == 'j' && top == 1 && bottom == 1 && hair == 2){
+                sceneImage = loadImage("img/4/adyj.png");
+              }
+
+              if(key == 'k' && top == 1 && bottom == 1 && hair == 2){
+                sceneImage = loadImage("img/4/adyk.png");
+              }
+
+
 
 
         }

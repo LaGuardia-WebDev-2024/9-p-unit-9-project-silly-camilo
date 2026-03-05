@@ -844,6 +844,15 @@ draw = function(){
                 sceneImage = loadImage("img/4/cgyk.png");
               }
 
+      //restart
+          if(key == 'r'){
+            top = 0;
+            bottom = 0;
+            hair = 0;
+            count = 2;
+            sceneImage = gameStart;
+          }
+
 
         }
       
